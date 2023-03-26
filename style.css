@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://wallpapercave.com/wp/wp6971630.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 30% 45%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.tamanhoCheck{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+    width: 20rem;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    height: 3rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+fieldset label{
+    font-size: 1.0rem;
+    color: black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    gap: 1rem;
+    width: 70%;
+    height: 100%;
+    background-color: #d80505;
+}
+.header-spfc{
+    background-color:#d80505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 70%;
+    margin-top: 4rem;
+    gap: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.header-spfc h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.spfc-image{
+    width: 100px;
+    height: 100px;
+    background-color: #d80505;
+}
